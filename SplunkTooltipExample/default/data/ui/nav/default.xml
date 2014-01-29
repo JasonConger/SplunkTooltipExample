@@ -1,0 +1,3 @@
+<nav search_view="search" color="#0072C6">
+  <view name="tooltip" default="true" />
+</nav>
