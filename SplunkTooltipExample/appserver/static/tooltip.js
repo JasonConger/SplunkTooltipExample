@@ -27,7 +27,7 @@ require([
         }
     });
     
-    mvc.Components.get('tblCrashReport').getVisualization(function(tableView) {
+    mvc.Components.get('tblTooltip').getVisualization(function(tableView) {
         
         // Register custom cell renderer
         tableView.table.addCellRenderer(new CustomTooltipRenderer());

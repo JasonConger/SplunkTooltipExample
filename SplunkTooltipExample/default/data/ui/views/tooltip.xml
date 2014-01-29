@@ -39,7 +39,7 @@
   </row>
   
   <row>
-    <table id="tblCrashReport">
+    <table id="tblTooltip">
       <title>The Most Awesome Table Ever</title>
       <searchPostProcess>
 	sort - _time |
