@@ -17,7 +17,7 @@ require([
             
             if(message.length > 48) { message = message.substring(0,47) + "..." }
             
-            $td.html(_.template('<a href="#" data-toggle="tooltip" data-placement="left" data-html="true" title="<%- tip%>"><%- message%></a>', {
+            $td.html(_.template('<a href="#" data-toggle="tooltip" data-placement="left" title="<%- tip%>"><%- message%></a>', {
                 tip: tip,
                 message: message
             }));
